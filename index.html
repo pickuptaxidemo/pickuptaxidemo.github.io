@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pickup Taxi - Outstation Taxi, Safety and Friendly Drop Taxi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap"> -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<style>
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:30px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.my-phone{
+	background-color:deepskyblue;
+	left:30px !important;
+	
+}
+</style>
+</head>
+
+<body>
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">info@company.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                PickUp Taxi
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#container py-5">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Tarrif">Fare</a>
+                        </li>
+                        <!-- <li class="nav-item"> -->
+                            <!-- <a class="nav-link" href="contact.html">Gallery</a> -->
+                        <!-- </li> -->
+						<li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>                
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Start Banner Hero -->
+    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <!-- <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li> -->
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1" class="active"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">            
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/cabs/Sedan3a.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <!-- <h1 class="h1">Proident occaecat</h1> -->
+                                <h3 class="h3" style="text-align:center;">We have experienced outstation cab drivers</h3>
+                                <!-- <p> -->
+                                    <!-- You are permitted to use this Zay CSS template for your commercial websites.  -->
+                                    <!-- You are <strong>not permitted</strong> to re-distribute the template ZIP file in any kind of template collection websites. -->
+                                <!-- </p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/cabs/suv1.png" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <!-- <h1 class="h1">Repr in voluptate</h1> -->
+                                <h3 class="h3"style="text-align:center;">Easily Accessible Outstation Taxi</h3>
+                                <!-- <p> -->
+                                    <!-- We bring you 100% free CSS templates for your websites.  -->
+                                    <!-- If you wish to support TemplateMo, please make a small contribution via PayPal or tell your friends about our website. Thank you. -->
+                                <!-- </p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Banner Hero -->
+	<section class="bg-light" style="background-color:#59ab6e !important;padding: 2%">
+        <div class="row text-center pt-3">
+            <div class="col-lg-6 m-auto"  style="padding-left: 10%;padding-right: 10%;">
+                <h3 class="h3">Safety First</h3>
+                <p>
+				<ul  style="text-align:left;">
+				<li>Sanitizing our cabs before each and every trips.</li>
+				<li>Drivers wear face mask</li>
+				<li>Always having Sanitizing Kit in all our vehicles</li>				
+				</ul>
+                </p>
+            </div>
+        </div>
+	</section>
+
+    <!-- Start Categories of The Month -->
+    <section class="container py-5" id="container py-5">
+        <div class="row text-center pt-3">
+            <div class="col-lg-6 m-auto">
+                <h3 class="h3">About Us</h3>
+                <p>
+                    PickUp Taxi is Tamilnadu based Taxi Company, we are primarily providing service to the Outstation trips. Mostly Chennai to Trichy, Madurai, Tirunelveli and other parts of Tamilnadu. We provide Sedan, SUV types of cabs with all facilities like Sanitizing kit, AC & Non-AC, Music System, etc. And we have drivers who has huge knowledge in outstation routes. It will be useful for our customers to have peaceful trips.
+                </p>
+            </div>
+        </div>
+        <!-- <div class="row"> -->
+            <!-- <div class="col-12 col-md-4 p-5 mt-3"> -->
+                <!-- <a href="#"><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border"></a> -->
+                <!-- <h5 class="text-center mt-3 mb-3">Watches</h5> -->
+                <!-- <p class="text-center"><a class="btn btn-success">Go Shop</a></p> -->
+            <!-- </div> -->
+            <!-- <div class="col-12 col-md-4 p-5 mt-3"> -->
+                <!-- <a href="#"><img src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border"></a> -->
+                <!-- <h2 class="h5 text-center mt-3 mb-3">Shoes</h2> -->
+                <!-- <p class="text-center"><a class="btn btn-success">Go Shop</a></p> -->
+            <!-- </div> -->
+            <!-- <div class="col-12 col-md-4 p-5 mt-3"> -->
+                <!-- <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border"></a> -->
+                <!-- <h2 class="h5 text-center mt-3 mb-3">Accessories</h2> -->
+                <!-- <p class="text-center"><a class="btn btn-success">Go Shop</a></p> -->
+            <!-- </div> -->
+        <!-- </div> -->
+    </section>
+    <!-- End Categories of The Month -->
+
+
+    <!-- Start Featured Product -->
+    <section class="bg-light" id="Tarrif">
+        <div class="container py-5">
+            <div class="row text-center py-3">
+                <div class="col-lg-6 m-auto">
+                    <h3 class="h3">Tarrif Details</h3>
+                    <p>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+				<div class="col-12 col-md-2 mb-2"></div>				
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">                        
+						<img src="./assets/img/cabs/Sedan3a.jpg" class="card-img-top" alt="...">                      
+                        <div class="card-body">
+							
+                            <h3 class="h2 text-decoration-none text-dark" style="text-align:center;">SEDAN</h3>
+                            <table class="table table-dark table-striped" style="font-size:14px;">
+							  <tr>
+							  <td></td><td>Round-Trip</td><td>Only Drop</td>  
+							  </tr>							  
+							  <tr>
+							  <td>AC Per KM</td><td>12/-</td><td>20/-</td>
+							  </tr>							  
+							  <tr>
+							  <td>Non AC Per KM</td><td>10/-</td><td>18/-</td>
+							  </tr>  
+							  <tr>
+							  </tr>
+							</table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">                        
+                            <img src="./assets/img/cabs/suv1b.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">						
+							<h3  class="h2 text-decoration-none text-dark" style="text-align:center;">SUV</h3>
+							<table class="table table-dark table-striped" style="font-size:14px;">
+							  <tr>
+							  <td></td><td>Round-Trip</td><td>Only Drop</td>  
+							  </tr>							  
+							  <tr>
+							  <td>AC Per KM</td><td>12/-</td><td>20/-</td>
+							  </tr>							  
+							  <tr>
+							  <td>Non AC Per KM</td><td>10/-</td><td>18/-</td>
+							  </tr>  
+							  <tr>
+							  </tr>
+							</table>
+                        </div>
+                    </div>
+                </div>   
+				<div class="col-12 col-md-2 mb-2"></div>				
+            </div>
+			<div class="row text-center py-3">
+                <div class="col-lg-6 m-auto">
+                    <h3 class="h3">Package Details</h3>   					
+                    <div class="card h-100">
+                        <div class="card-body">													
+							<table class="table table-dark table-striped" style="font-size:14px;">
+							  <tr>
+							  <td>Package</td><td>SEDAN</td><td>SUV</td>  
+							  </tr>							  
+							  <tr>
+							  <td>5 Hr Package <br> (5 HRS & 50 KMS) </td><td>Rs. 1500</td><td>Rs. 1800</td>
+							  </tr>							  
+							  <tr>
+							  <td>8 Hr Package <br> (8 HRS & 80 KMS)</td><td>Rs. 1900</td><td>Rs. 2400</td>
+							  </tr>  
+							  <tr>
+							  <td>12 Hr Package <br> (12 HRS & 120 KMS)</td><td>Rs. 2300</td><td>Rs. 3000</td>
+							  </tr>  
+							  <tr>
+							  </tr>
+							</table>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Featured Product -->
+	<section>
+		<a href="tel:8189947181" class="float my-phone" >
+			<i class="fa fa-phone my-float" style="font-size:30px;"></i>
+		</a>
+		<a href="https://api.whatsapp.com/send?phone=918189947181" class="float" target="_blank">
+			<i class="fa fa-whatsapp my-float" style="font-size:30px;"></i>
+		</a>
+				<!-- <a href="https://api.whatsapp.com/send?phone=8189947181&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank"> -->
+			<!-- <i class="fa fa-whatsapp my-float" style="font-size:30px;"></i> -->
+		<!-- </a> -->
+
+	</section>
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container" id="contact-us">
+            <div class="row" style="text-align:center;">
+
+                <div class="pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Contact Us</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Chennai, Tamilnadu.
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:010-020-0340">9841012345</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:info@company.com">pickuptaxi123@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row text-light mb-4" style="text-align:center;">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto" style="margin:auto;">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light" style="text-align:center;">
+                            Copyright &copy; 2021
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="assets/js/templatemo.js"></script> -->
+    <!-- <script src="assets/js/custom.js"></script> -->
+    <!-- End Script -->
+</body>
+
+</html>
